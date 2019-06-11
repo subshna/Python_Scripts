@@ -1,0 +1,4 @@
+INFO 2019-01-23 17:29:20,540 - Quadratic_formula 1, 0, 1
+DEBUG 2019-01-23 17:29:20,540 - Compute the discriminant
+ERROR 2019-01-23 17:29:20,540 - discriminant returned -ve
+DEBUG 2019-01-23 17:29:20,540 - Compute the roots

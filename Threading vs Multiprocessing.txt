@@ -1,0 +1,16 @@
+# Threading vs Multiprocessing
+
+# Threading
+# 1. A new thread is spawned within the exisiitng process
+# 2. Starting a thread is faster than starting a process
+# 3. Memory is shared b/w all threads.
+# 4. Mutexes often necessary to control access to shared data
+# 5. One GIL(Global Interpreter lock) for all threads
+
+# Multiprocessing
+# 1. A new process is started independent from the frist process
+# 2. Starting a thread is Slower than starting a thread
+# 3. Memory is not shared b/w all processes, do get access to a copy.
+# 4. Mutexes is not neessary (unless threading in the new process)
+# 5. One GIL for each process
+# GIL : a mechanism in python that shares that there is no more than one thread of execution for the python interpreter
