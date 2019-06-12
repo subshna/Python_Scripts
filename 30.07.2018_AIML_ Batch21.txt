@@ -1,0 +1,99 @@
+Python Scripting (L1) 30.07.2018 - 03.08.2018, 10.30 am - 12.30 am
+
+Topics to be discussed
+
+- Introduction - Compiled vs interpretted 
+- Lifetime of source code
+- Where to get and install the interpretter
+- Modes of operation - Interactive/script
+- Python objects
+	-String
+	-List
+	-Dictionary
+	-Tuple
+	-Set
+- command line arguments
+- Function - __builtins__ and user defined functions
+- Branching and looping constructs in Python
+- Handling files
+- Exception handling
+- Lambda, map, filter and reduce
+- comprehensions
+- modules and packages
+- name mangling _a,__a,__a__
+
+- List of problems - practice
+- complete one Topgear assignments
+
+Compilation vs Interpretation
+
+- interpretation is line by line execution
+- commands will be executed at run time for interpretation 
+- In compiled languages there is a compilation step which translates the source code to mahine code or byte code, whereas in intrepreted is kept in text format and during execution it is interpreted line by line and executed
+- source program to object program line by line - interpreter
+- compilation will analyze the code for syntax, then converts it to machine level codes for execution at once
+- Compilation is getting a binary output once, and execute it multiple times; Interpretation is done every time line by line
+- Compilation is getting a binary output once, and execute it multiple times; Interpretation is done every time line by line
+
+Pros from compiled and interpretted approaches we would like to see in Python
+
+- Platform independence
+- private source code
+- simple test and debug 
+- faster execution
+
+- Python takes an intermediate approach
+
+- by convention Python instructions are stored in files with .py extension (.py)
+- the interpretter compiles the code part of the way to an intermediate language - byte code
+	- simple translations step
+	- platform indepenadant representation of source code (.pyc)
+- once compiled to byte code, its executed by Python Virtual Machine, the runtime engine of Python
+
+Development implications
+
+- No distinction between development and execution environment
+- rapid development lifecycle
+
+- Frozen binary
+
+- 3rd party tools to turn Python programs to true executables
+	- byte+PVM+support files
+	e.g. py2exe (windows) and installer (Linux)
+
+- How Python stores and accesses information
+
+main()
+{
+	int a=10;b=20;
+	printf("%d %d", a,b);
+	a=100;
+	b=200;
+	printf("%d %d", a,b);
+}
+
+a=10
+b=20
+print a,b
+a=100
+b=200
+print a,b
+
+
+- literal - is a value written as it is to be interpretted e.g. numbers, strings
+- name -can represent different values during the course of the program
+	* a name can start with an alphabet (a-z,A-Z,_)
+	* a name can include (a-z,A-Z,_,0-9)
+	* a name can be of any length
+	* names are case sensitive
+	* A keyword should not be a name
+	
+- constant - is a name that represents the same value throughout the program
+
+
+** Numeric objects
+
+- int - <2^31-1
+- long - >=2^31
+- float - 1.0
+- complex - a+bj

@@ -1,0 +1,24 @@
+class : The class is a blueprint that defines the nature of a object.
+
+Instance: An instance is a specific object created from a particular class
+
+attribute: An attribute is a characteristic of an object
+
+method:  A method is an operation we can perform with the object.
+You can basically think of methods as functions acting on an Object that take the Object itself into account through its self argument.
+
+self:  self to find the right set of attributes and methods to apply to an object
+attribute in a class definition begins with a reference to the instance object. It is by convention named self
+
+class object attributes: Class Object Attributes are the same for any instance of the class
+
+Inheritance: where derived classes can inherit attributes and methods from a base class
+Inheritance is a way to form new classes using classes that have already been defined. The newly formed classes are called derived classes, the classes that we derive from are called base classes
+
+polymorphism: polymorphism refers to the way in which different object classes can share the same method name, and those methods can be called from the same place even though a variety of different objects might be passed in
+where different object classes that share the same method can be called from the same place
+
+Abstract Class:  An abstract class is one that never expects to be instantiated
+
+__init__, __str__, __len__, __del__: They allow us to use Python specific functions on objects created through our class
+
